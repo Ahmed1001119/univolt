@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+ <html lang="en"> <head>
+     <meta charset="UTF-8" /> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Universal Power Distribution Module</title>
+       <style> html { scroll-behavior: smooth; font-family: 'Segoe UI', sans-serif; }
+    css
+    Copy code
+    body {
+      margin: 0;
+      color: #1a1a1a;
+      background-color: #f9f9f9;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+    
+    .navbar {
+      background-color: #ef5305;
+      color: #fff;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+    
+    .hero {
+      background-color: #e0f2ff;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #003049;
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #ef5305;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .section {
+      padding: 3rem 1rem;
+      background-color: #fff;
+    }
+    
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .section ul {
+      padding-left: 1.5rem;
+    }
+    
+    .specs-section {
+      background-color: #ffffff;
+    }
+    
+    .specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+    
+    .specs-table th,
+    .specs-table td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    
+    .specs-table th {
+      background-color: #ef5305;
+      color: #fff;
+    }
+    
+    .block-diagram h3 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    
+    .block-diagram img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    
+    .buy-section {
+      background-color: #f7f7f7;
+    }
+    
+    .interest-form,
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+    }
+    
+    .interest-form label,
+    .contact-form label {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    
+    .interest-form input,
+    .interest-form textarea,
+    .contact-form input,
+    .contact-form textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 0.25rem;
+    }
+    
+    .interest-form button,
+    .contact-form button {
+      margin-top: 1.5rem;
+      padding: 0.75rem;
+      background-color: #ef5305;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .stripe-box {
+      margin-top: 2rem;
+    }
+    
+    .stripe-button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background-color: #6772e5;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .admin-section {
+      background-color: #eef6fb;
+    }
+    
+    .admin-section ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    
+    .footer {
+      background-color: #ef5305;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+    }
+    </style> </head> <body> <header class="navbar"> 
+        <div class="container nav-container"> 
+            <h1 class="logo">Universal PDM</h1>
+             <nav> <ul class="nav-links"> 
+                <li><a href="#about">About</a></li> 
+                <li><a href="#features">Features</a></li> 
+                <li><a href="#specs">Specs</a></li> 
+                <li><a href="#buy">Buy</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                 </ul> </nav> </div> </header> <section class="hero"> <div class="container">
+                     <h2>Universal Power Distribution Module</h2> 
+                     <p>Solid-state, FPGA-controlled automotive PDM for the next generation of vehicle electronics.</p>
+                      <a href="#buy" class="cta-button">Pre-Order Now</a> </div> </section>
+                       <section id="about" class="section"> <div class="container"> 
+                        <h2>About the Project</h2> 
+                        <p>The Universal PDM is a product developed by Electrical Engineers at Rochester's Institute of Technology Dubai. Designed to replace traditional fuses and relays, this module simplifies vehicle wiring, improves reliability, and enables advanced diagnostics.</p> </div> </section> <section id="features" class="section"> <div class="container">
+                             <h2>Key Features</h2> <ul> <li>Solid-state switching with MOSFETs</li> 
+                                <li>FPGA-based logic control (Intel DE10-Nano)</li> 
+                                <li>Modular & scalable design</li> 
+                                <li>Built-in current sensing and diagnostics</li> 
+                                <li>Supports 12V and 48V automotive systems</li> 
+                                <li>Optional CAN bus & IoT extensions</li> </ul> </div> </section> <section id="specs" class="section specs-section"> 
+                                    <div class="container"> <h2>Technical Specifications</h2> 
+                                        <table class="specs-table"> <tr><th>Parameter</th>
+                                            <th>Specification</th></tr> 
+                                             <tr><td>System Voltage</td>
+                                                <td>12V / 48V Compatible</td></tr> 
+                                                <tr><td>Total Current Output</td>
+                                                    <td>Up to 114A (Distributed)</td></tr> 
+                                                    <tr><td>Switching</td>
+                                                        <td>Solid-State (MOSFET-based)</td></tr>
+                                                     <tr><td>Control Unit</td>
+                                                        <td>Intel DE10-Nano FPGA</td></tr>
+                                                      <tr><td>Diagnostics</td>
+                                                        <td>ACS37002 (Current), INA240 (Shunt Monitoring)</td></tr>
+                                                       <tr><td>Interfaces</td>
+                                                        <td>CAN Bus, GPIO, UART</td></tr> </table>
+    php-template
+    Copy code
+      <div class="block-diagram">
+        <h3>Block Diagram</h3>
+        <img src="https://via.placeholder.com/800x400?text=Block+Diagram+Placeholder" alt="Block Diagram" />
+      </div>
+    </div>
+    </section> <section id="buy" class="section buy-section"> <div class="container"> <h2>Buy / Pre-Order</h2> <p>We’re currently gauging interest for the first production run. Let us know if you’d like to reserve a unit or partner with us!</p>
+    php-template
+    Copy code
+      <form class="interest-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name*</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button type="submit">Submit Interest</button>
+      </form>
+    
+      <div class="stripe-box">
+        <h3>Want to Support Us?</h3>
+        <p>This button uses <strong>Stripe Test Mode</strong> and won’t charge real money.</p>
+        <a href="https://buy.stripe.com/test_bIYg05aeJc3D4nWaEE" class="stripe-button" target="_blank">Pre-Order (Test)</a>
+      </div>
+    </div>
+    </section> <section id="contact" class="section contact-section"> <div class="container"> <h2>Contact Us</h2>
+         <p>If you're an instructor, partner, or student interested in this project, feel free to reach out!</p>
+    php-template
+    Copy code
+      <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="contact-name">Name*</label>
+        <input type="text" id="contact-name" name="name" required />
+        <label for="contact-email">Email*</label>
+        <input type="email" id="contact-email" name="email" required />
+        <label for="contact-message">Message*</label>
+        <textarea id="contact-message" name="message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    </section> <section id="admin" class="section admin-section"> <div class="container">
+         <h2>Admin Panel (Coming Soon)</h2> <p>This section is reserved for future development of an administrative dashboard where team members can:</p>
+          <ul> <li>View and manage interest submissions</li> 
+            <li>Track product pre-orders</li>
+             <li>Update technical specs and product details</li>
+              <li>Monitor usage data and diagnostics</li> </ul> 
+              <p>Authentication, database integration, and analytics coming in future iterations.</p> 
+            </div> </section> <footer class="footer"> <div class="container"> &copy; 2025 RIT DUBAI PROJECT · All Rights Reserved </div> </footer> </body> </html>
